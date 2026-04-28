@@ -1,6 +1,0 @@
-[0.012s] Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32
-[0.027s] [0mCMake Error: The current CMakeCache.txt directory /media/zihao/Zihao/limo/agilex_open_class/build/piper_description/CMakeCache.txt is different than the directory /home/zihao/Documents/limo/agilex_open_class/build/piper_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.038s] [0mCMake Error: The source directory "/home/zihao/Documents/limo/agilex_open_class/piper/piper_description" does not exist.
-[0.038s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.040s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.041s] Invoked command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32

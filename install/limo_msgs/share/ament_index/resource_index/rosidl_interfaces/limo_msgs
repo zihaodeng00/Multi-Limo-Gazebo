@@ -1,8 +1,0 @@
-action/LimoAction.action
-action/LimoAction.idl
-msg/LimoStatus.idl
-msg/LimoStatus.msg
-srv/LimoSrv.idl
-srv/LimoSrv.srv
-srv/LimoSrv_Request.msg
-srv/LimoSrv_Response.msg

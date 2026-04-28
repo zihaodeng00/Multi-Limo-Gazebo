@@ -1,9 +1,0 @@
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/uninstall.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/limo_bringup_uninstall.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/test.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/edit_cache.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/rebuild_cache.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/list_install_components.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/install.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/install/local.dir
-/home/zihao/Documents/limo/agilex_open_class/build/limo_bringup/CMakeFiles/install/strip.dir

@@ -1,2 +1,0 @@
-Invoking command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zihao/Documents/limo/agilex_open_class/limo/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/zihao/Documents/limo/agilex_open_class/install/limo_msgs
-Invoked command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zihao/Documents/limo/agilex_open_class/limo/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/zihao/Documents/limo/agilex_open_class/install/limo_msgs
