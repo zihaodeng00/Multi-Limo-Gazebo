@@ -1,0 +1,1 @@
+Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/limo_description -- -j32 -l32

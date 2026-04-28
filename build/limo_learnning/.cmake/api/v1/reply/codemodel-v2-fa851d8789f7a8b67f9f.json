@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-273fcc84f6d040d7a956.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "limo_learnning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "explore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore-2818417926278aae7d3b.json",
+					"name" : "explore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_path-e50724b7b66eb416d8ed.json",
+					"name" : "follow_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_action_client-51165e33203596ffcacd.json",
+					"name" : "limo_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_action_server-c60d91bec7e3c7bc359e.json",
+					"name" : "limo_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_client-5762dfac3ed6fdbbbfef.json",
+					"name" : "limo_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_learnning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_learnning_uninstall-af87cb89fde2f41fa69c.json",
+					"name" : "limo_learnning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_scan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_scan-339a07cdb0f9d04357ec.json",
+					"name" : "limo_scan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_scan_nav::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_scan_nav-fc196d57a091c982ed43.json",
+					"name" : "limo_scan_nav",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_server-7e0a14a2c3e0ee53c408.json",
+					"name" : "limo_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limo_topic_cmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limo_topic_cmd-9174f229a888bc785dc8.json",
+					"name" : "limo_topic_cmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listen_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listen_tf-e5eca6e5ece11a9b4003.json",
+					"name" : "listen_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_goal_nav::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_goal_nav-aa10b72079ae6c2b6e2f.json",
+					"name" : "multi_goal_nav",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "record_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-record_path-d8922ec1cc7cb9b7ae49.json",
+					"name" : "record_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-76b6327f814827705723.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zihao/Documents/limo/agilex_open_class/build/limo_learnning",
+		"source" : "/home/zihao/Documents/limo/agilex_open_class/limo/limo_learnning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

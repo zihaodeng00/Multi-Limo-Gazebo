@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/zihao/Documents/limo/agilex_open_class/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(REDIG) /home/zihao/anaconda3/envs/REDIG/bin/cmake /home/zihao/Documents/limo/agilex_open_class/piper/piper_description -DCMAKE_INSTALL_PREFIX=/home/zihao/Documents/limo/agilex_open_class/install/piper_description
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.084s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.095s] Traceback (most recent call last):
+[0.095s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.095s]     from catkin_pkg.package import parse_package_string
+[0.095s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.097s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.097s]   execute_process(/home/zihao/anaconda3/bin/python3
+[0.097s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.097s]   /home/zihao/Documents/limo/agilex_open_class/piper/piper_description/package.xml
+[0.097s]   /home/zihao/Documents/limo/agilex_open_class/build/piper_description/ament_cmake_core/package.cmake)
+[0.097s]   returned error code 1
+[0.097s] Call Stack (most recent call first):
+[0.097s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.097s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.097s]   CMakeLists.txt:35 (ament_lint_auto_find_test_dependencies)
+[0.097s] 
+[0.097s] [0m
+[0.097s] -- Configuring incomplete, errors occurred!
+[0.102s] Invoked command in '/home/zihao/Documents/limo/agilex_open_class/build/piper_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(REDIG) /home/zihao/anaconda3/envs/REDIG/bin/cmake /home/zihao/Documents/limo/agilex_open_class/piper/piper_description -DCMAKE_INSTALL_PREFIX=/home/zihao/Documents/limo/agilex_open_class/install/piper_description

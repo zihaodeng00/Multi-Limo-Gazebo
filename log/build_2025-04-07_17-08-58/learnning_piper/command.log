@@ -1,0 +1,1 @@
+Invoking command in '/home/zihao/Documents/limo/agilex_open_class/build/learnning_piper': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(REDIG) /home/zihao/anaconda3/envs/REDIG/bin/cmake /home/zihao/Documents/limo/agilex_open_class/piper/learnning_piper -DCMAKE_INSTALL_PREFIX=/home/zihao/Documents/limo/agilex_open_class/install/learnning_piper

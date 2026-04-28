@@ -1,0 +1,375 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78ae2855ded0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ae2855d900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ae2855d900>>, mixin_verb=('build',))
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/zihao/Zihao/limo/agilex_open_class'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/image) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_bringup) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_bringup' with type 'ros.ament_cmake' and name 'limo_bringup'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_description) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_description' with type 'ros.ament_cmake' and name 'limo_description'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_gazebo_sim) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_gazebo_sim' with type 'ros.ament_cmake' and name 'limo_gazebo_sim'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_learnning' with type 'ros.ament_cmake' and name 'limo_learnning'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_learnning_py) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_learnning_py' with type 'ros.ament_python' and name 'limo_learnning_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(limo/limo_msgs) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'limo/limo_msgs' with type 'ros.ament_cmake' and name 'limo_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(piper/image) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(piper/learnning_piper) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'piper/learnning_piper' with type 'ros.ament_cmake' and name 'learnning_piper'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_description) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'piper/piper_description' with type 'ros.ament_cmake' and name 'piper_description'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v4) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'piper/piper_moveit_config_v4' with type 'ros.ament_cmake' and name 'piper_moveit_config_v4'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(piper/piper_moveit_config_v5) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'piper/piper_moveit_config_v5' with type 'ros.ament_cmake' and name 'piper_moveit_config_v5'
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 419 installed packages in /opt/ros/humble
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'learnning_piper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'learnning_piper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/learnning_piper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/learnning_piper', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/piper/learnning_piper', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'limo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_description', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_description', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'limo_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_gazebo_sim', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'limo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_msgs', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'piper_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/piper/piper_description', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'limo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_bringup', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'limo_learnning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_learnning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_learnning', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_learnning', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'limo_learnning_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'limo_learnning_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/limo_learnning_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/limo_learnning_py', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_learnning_py', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'piper_moveit_config_v4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/piper_moveit_config_v4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/piper_moveit_config_v4', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/piper/piper_moveit_config_v4', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'piper_moveit_config_v5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'piper_moveit_config_v5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/zihao/Zihao/limo/agilex_open_class/build/piper_moveit_config_v5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/zihao/Zihao/limo/agilex_open_class/install/piper_moveit_config_v5', 'merge_install': False, 'path': '/media/zihao/Zihao/limo/agilex_open_class/piper/piper_moveit_config_v5', 'symlink_install': False, 'test_result_base': None}
+[0.276s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_msgs' with build type 'ament_cmake'
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_msgs'
+[0.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/zihao/Zihao/limo/agilex_open_class/piper/piper_description' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/zihao/Zihao/limo/agilex_open_class/piper/piper_description'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/zihao/Zihao/limo/agilex_open_class/piper/learnning_piper' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/zihao/Zihao/limo/agilex_open_class/piper/learnning_piper'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_description' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_description'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_gazebo_sim' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/zihao/Zihao/limo/agilex_open_class/limo/limo_gazebo_sim'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/limo_msgs -- -j32 -l32
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32
+[0.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/learnning_piper': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/learnning_piper -- -j32 -l32
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/limo_description -- -j32 -l32
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/limo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/limo_gazebo_sim -- -j32 -l32
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32
+[0.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_description)
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description' for CMake config files
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_description', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/hook/cmake_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/hook/cmake_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/hook/cmake_prefix_path.sh'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/bin'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/lib/pkgconfig/piper_description.pc'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/lib/python3.10/site-packages'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/bin'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/package.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/package.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/package.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/package.bash'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/piper_description/package.zsh'
+[0.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/zihao/Zihao/limo/agilex_open_class/install/piper_description/share/colcon-core/packages/piper_description)
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.344s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.348s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.356s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.356s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/zihao/Zihao/limo/agilex_open_class/install/local_setup.ps1'
+[0.357s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/zihao/Zihao/limo/agilex_open_class/install/_local_setup_util_ps1.py'
+[0.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/zihao/Zihao/limo/agilex_open_class/install/setup.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/zihao/Zihao/limo/agilex_open_class/install/local_setup.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/zihao/Zihao/limo/agilex_open_class/install/_local_setup_util_sh.py'
+[0.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/zihao/Zihao/limo/agilex_open_class/install/setup.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/zihao/Zihao/limo/agilex_open_class/install/local_setup.bash'
+[0.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/zihao/Zihao/limo/agilex_open_class/install/setup.bash'
+[0.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/zihao/Zihao/limo/agilex_open_class/install/local_setup.zsh'
+[0.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/zihao/Zihao/limo/agilex_open_class/install/setup.zsh'

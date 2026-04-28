@@ -1,0 +1,41 @@
+[0.011s] Invoking command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zihao/Documents/limo/agilex_open_class/install/limo_learnning_py:/opt/ros/humble /usr/bin/cmake --build /home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim -- -j32 -l32
+[0.039s] Invoked command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zihao/Documents/limo/agilex_open_class/install/limo_learnning_py:/opt/ros/humble /usr/bin/cmake --build /home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim -- -j32 -l32
+[0.050s] Invoking command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zihao/Documents/limo/agilex_open_class/install/limo_learnning_py:/opt/ros/humble /usr/bin/cmake --install /home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim
+[0.057s] -- Install configuration: ""
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_diff.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_diff_empty_world.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_ackerman.launch.py
+[0.057s] -- Installing: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_multi_robot.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_ackerman_empty_world.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_ackerman_spawn.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/__pycache__
+[0.057s] -- Installing: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/__pycache__/limo_multi_robot.launch.cpython-310.pyc
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/launch/limo_diff_spawn.launch.py
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds
+[0.057s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/empty.world
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/world_v1
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/world_v1/model.sdf
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/world_v1/model.config
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/willowgarage.world
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/world_v1.world
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/worlds/clearpath_playpen.world
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/config
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/config/limo_ackerman_control.yaml
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/config/limo_four_diff_control.yaml
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/limo_gazebo_sim
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/limo_gazebo_sim
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/environment/path.sh
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/environment/path.dsv
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/local_setup.bash
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/local_setup.sh
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/local_setup.zsh
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/local_setup.dsv
+[0.058s] -- Installing: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/package.dsv
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/ament_index/resource_index/packages/limo_gazebo_sim
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/cmake/limo_gazebo_simConfig.cmake
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/cmake/limo_gazebo_simConfig-version.cmake
+[0.058s] -- Up-to-date: /home/zihao/Documents/limo/agilex_open_class/install/limo_gazebo_sim/share/limo_gazebo_sim/package.xml
+[0.059s] Invoked command in '/home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zihao/Documents/limo/agilex_open_class/install/limo_learnning_py:/opt/ros/humble /usr/bin/cmake --install /home/zihao/Documents/limo/agilex_open_class/build/limo_gazebo_sim

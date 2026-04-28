@@ -1,0 +1,8 @@
+{
+  "package_name": "limo_msgs",
+  "non_idl_tuples": [
+    "/home/zihao/Documents/limo/agilex_open_class/limo/limo_msgs:msg/LimoStatus.msg",
+    "/home/zihao/Documents/limo/agilex_open_class/limo/limo_msgs:srv/LimoSrv.srv",
+    "/home/zihao/Documents/limo/agilex_open_class/limo/limo_msgs:action/LimoAction.action"
+  ]
+}

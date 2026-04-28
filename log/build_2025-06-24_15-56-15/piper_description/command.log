@@ -1,0 +1,2 @@
+Invoking command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32
+Invoked command in '/media/zihao/Zihao/limo/agilex_open_class/build/piper_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/zihao/Zihao/limo/agilex_open_class/build/piper_description -- -j32 -l32

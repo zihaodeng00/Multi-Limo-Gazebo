@@ -1,0 +1,4 @@
+source;share/learnning_piper/local_setup.bash
+source;share/learnning_piper/local_setup.dsv
+source;share/learnning_piper/local_setup.sh
+source;share/learnning_piper/local_setup.zsh
